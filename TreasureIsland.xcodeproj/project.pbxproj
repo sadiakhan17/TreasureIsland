@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56EAF81B2998A52C00DD3F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF81A2998A52C00DD3F78 /* AppDelegate.swift */; };
+		56EAF81D2998A52C00DD3F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF81C2998A52C00DD3F78 /* SceneDelegate.swift */; };
+		56EAF81F2998A52C00DD3F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF81E2998A52C00DD3F78 /* ViewController.swift */; };
+		56EAF8222998A52C00DD3F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EAF8202998A52C00DD3F78 /* Main.storyboard */; };
+		56EAF8242998A52E00DD3F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EAF8232998A52E00DD3F78 /* Assets.xcassets */; };
+		56EAF8272998A52E00DD3F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EAF8252998A52E00DD3F78 /* LaunchScreen.storyboard */; };
+		56EAF8322998A52E00DD3F78 /* TreasureIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF8312998A52E00DD3F78 /* TreasureIslandTests.swift */; };
+		56EAF83C2998A52E00DD3F78 /* TreasureIslandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF83B2998A52E00DD3F78 /* TreasureIslandUITests.swift */; };
+		56EAF83E2998A52E00DD3F78 /* TreasureIslandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAF83D2998A52E00DD3F78 /* TreasureIslandUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56EAF82E2998A52E00DD3F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAF80F2998A52C00DD3F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAF8162998A52C00DD3F78;
+			remoteInfo = TreasureIsland;
+		};
+		56EAF8382998A52E00DD3F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56EAF80F2998A52C00DD3F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56EAF8162998A52C00DD3F78;
+			remoteInfo = TreasureIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EAF8172998A52C00DD3F78 /* TreasureIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreasureIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAF81A2998A52C00DD3F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56EAF81C2998A52C00DD3F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56EAF81E2998A52C00DD3F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56EAF8212998A52C00DD3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56EAF8232998A52E00DD3F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56EAF8262998A52E00DD3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56EAF8282998A52E00DD3F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EAF82D2998A52E00DD3F78 /* TreasureIslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureIslandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAF8312998A52E00DD3F78 /* TreasureIslandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureIslandTests.swift; sourceTree = "<group>"; };
+		56EAF8372998A52E00DD3F78 /* TreasureIslandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasureIslandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EAF83B2998A52E00DD3F78 /* TreasureIslandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureIslandUITests.swift; sourceTree = "<group>"; };
+		56EAF83D2998A52E00DD3F78 /* TreasureIslandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureIslandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56EAF8142998A52C00DD3F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF82A2998A52E00DD3F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF8342998A52E00DD3F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56EAF80E2998A52C00DD3F78 = {
+			isa = PBXGroup;
+			children = (
+				56EAF8192998A52C00DD3F78 /* TreasureIsland */,
+				56EAF8302998A52E00DD3F78 /* TreasureIslandTests */,
+				56EAF83A2998A52E00DD3F78 /* TreasureIslandUITests */,
+				56EAF8182998A52C00DD3F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56EAF8182998A52C00DD3F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56EAF8172998A52C00DD3F78 /* TreasureIsland.app */,
+				56EAF82D2998A52E00DD3F78 /* TreasureIslandTests.xctest */,
+				56EAF8372998A52E00DD3F78 /* TreasureIslandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56EAF8192998A52C00DD3F78 /* TreasureIsland */ = {
+			isa = PBXGroup;
+			children = (
+				56EAF81A2998A52C00DD3F78 /* AppDelegate.swift */,
+				56EAF81C2998A52C00DD3F78 /* SceneDelegate.swift */,
+				56EAF81E2998A52C00DD3F78 /* ViewController.swift */,
+				56EAF8202998A52C00DD3F78 /* Main.storyboard */,
+				56EAF8232998A52E00DD3F78 /* Assets.xcassets */,
+				56EAF8252998A52E00DD3F78 /* LaunchScreen.storyboard */,
+				56EAF8282998A52E00DD3F78 /* Info.plist */,
+			);
+			path = TreasureIsland;
+			sourceTree = "<group>";
+		};
+		56EAF8302998A52E00DD3F78 /* TreasureIslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				56EAF8312998A52E00DD3F78 /* TreasureIslandTests.swift */,
+			);
+			path = TreasureIslandTests;
+			sourceTree = "<group>";
+		};
+		56EAF83A2998A52E00DD3F78 /* TreasureIslandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56EAF83B2998A52E00DD3F78 /* TreasureIslandUITests.swift */,
+				56EAF83D2998A52E00DD3F78 /* TreasureIslandUITestsLaunchTests.swift */,
+			);
+			path = TreasureIslandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56EAF8162998A52C00DD3F78 /* TreasureIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAF8412998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIsland" */;
+			buildPhases = (
+				56EAF8132998A52C00DD3F78 /* Sources */,
+				56EAF8142998A52C00DD3F78 /* Frameworks */,
+				56EAF8152998A52C00DD3F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreasureIsland;
+			productName = TreasureIsland;
+			productReference = 56EAF8172998A52C00DD3F78 /* TreasureIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56EAF82C2998A52E00DD3F78 /* TreasureIslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAF8442998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIslandTests" */;
+			buildPhases = (
+				56EAF8292998A52E00DD3F78 /* Sources */,
+				56EAF82A2998A52E00DD3F78 /* Frameworks */,
+				56EAF82B2998A52E00DD3F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EAF82F2998A52E00DD3F78 /* PBXTargetDependency */,
+			);
+			name = TreasureIslandTests;
+			productName = TreasureIslandTests;
+			productReference = 56EAF82D2998A52E00DD3F78 /* TreasureIslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56EAF8362998A52E00DD3F78 /* TreasureIslandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EAF8472998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIslandUITests" */;
+			buildPhases = (
+				56EAF8332998A52E00DD3F78 /* Sources */,
+				56EAF8342998A52E00DD3F78 /* Frameworks */,
+				56EAF8352998A52E00DD3F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56EAF8392998A52E00DD3F78 /* PBXTargetDependency */,
+			);
+			name = TreasureIslandUITests;
+			productName = TreasureIslandUITests;
+			productReference = 56EAF8372998A52E00DD3F78 /* TreasureIslandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56EAF80F2998A52C00DD3F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					56EAF8162998A52C00DD3F78 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					56EAF82C2998A52E00DD3F78 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 56EAF8162998A52C00DD3F78;
+					};
+					56EAF8362998A52E00DD3F78 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 56EAF8162998A52C00DD3F78;
+					};
+				};
+			};
+			buildConfigurationList = 56EAF8122998A52C00DD3F78 /* Build configuration list for PBXProject "TreasureIsland" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56EAF80E2998A52C00DD3F78;
+			productRefGroup = 56EAF8182998A52C00DD3F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56EAF8162998A52C00DD3F78 /* TreasureIsland */,
+				56EAF82C2998A52E00DD3F78 /* TreasureIslandTests */,
+				56EAF8362998A52E00DD3F78 /* TreasureIslandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56EAF8152998A52C00DD3F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAF8272998A52E00DD3F78 /* LaunchScreen.storyboard in Resources */,
+				56EAF8242998A52E00DD3F78 /* Assets.xcassets in Resources */,
+				56EAF8222998A52C00DD3F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF82B2998A52E00DD3F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF8352998A52E00DD3F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56EAF8132998A52C00DD3F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAF81F2998A52C00DD3F78 /* ViewController.swift in Sources */,
+				56EAF81B2998A52C00DD3F78 /* AppDelegate.swift in Sources */,
+				56EAF81D2998A52C00DD3F78 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF8292998A52E00DD3F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAF8322998A52E00DD3F78 /* TreasureIslandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56EAF8332998A52E00DD3F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAF83E2998A52E00DD3F78 /* TreasureIslandUITestsLaunchTests.swift in Sources */,
+				56EAF83C2998A52E00DD3F78 /* TreasureIslandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56EAF82F2998A52E00DD3F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAF8162998A52C00DD3F78 /* TreasureIsland */;
+			targetProxy = 56EAF82E2998A52E00DD3F78 /* PBXContainerItemProxy */;
+		};
+		56EAF8392998A52E00DD3F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56EAF8162998A52C00DD3F78 /* TreasureIsland */;
+			targetProxy = 56EAF8382998A52E00DD3F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56EAF8202998A52C00DD3F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EAF8212998A52C00DD3F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56EAF8252998A52E00DD3F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EAF8262998A52E00DD3F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56EAF83F2998A52E00DD3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56EAF8402998A52E00DD3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56EAF8422998A52E00DD3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreasureIsland/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56EAF8432998A52E00DD3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TreasureIsland/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56EAF8452998A52E00DD3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureIsland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TreasureIsland";
+			};
+			name = Debug;
+		};
+		56EAF8462998A52E00DD3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIslandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreasureIsland.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TreasureIsland";
+			};
+			name = Release;
+		};
+		56EAF8482998A52E00DD3F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreasureIsland;
+			};
+			name = Debug;
+		};
+		56EAF8492998A52E00DD3F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CS1337.TreasureIslandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreasureIsland;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56EAF8122998A52C00DD3F78 /* Build configuration list for PBXProject "TreasureIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAF83F2998A52E00DD3F78 /* Debug */,
+				56EAF8402998A52E00DD3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAF8412998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAF8422998A52E00DD3F78 /* Debug */,
+				56EAF8432998A52E00DD3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAF8442998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAF8452998A52E00DD3F78 /* Debug */,
+				56EAF8462998A52E00DD3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EAF8472998A52E00DD3F78 /* Build configuration list for PBXNativeTarget "TreasureIslandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56EAF8482998A52E00DD3F78 /* Debug */,
+				56EAF8492998A52E00DD3F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56EAF80F2998A52C00DD3F78 /* Project object */;
+}
